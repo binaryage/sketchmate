@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-# this should match bundled ruby version in Sketchup
-# check RUBY_VERSION in Sketchup's Developer Console
-ruby '2.7.7'
+# this should match bundled ruby version in SketchUp
+# check RUBY_VERSION in SketchUp's Developer Console
+# ruby '2.7.7'
 
 source 'https://rubygems.org'
 
