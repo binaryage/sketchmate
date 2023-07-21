@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+
+# this should match bundled ruby version in Sketchup
+# check RUBY_VERSION in Sketchup's Developer Console
+ruby '2.7.7'
+
+source 'https://rubygems.org'
+
+gem 'pry'
+gem 'rubocop', group: 'development', require: false
+gem 'sketchup-api-stubs'

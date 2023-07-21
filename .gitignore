@@ -1,0 +1,6 @@
+/.tmp/
+/projects/sketchmate-backend/vendor/
+/projects/sketchmate-frontend/vendor/
+*~.skp
+/.idea/
+*.iml
