@@ -8,7 +8,7 @@ require 'socket'
 
 default_port = 4433
 $sketchmate_port = Integer(ENV.fetch('SKETCHMATE_PORT', default_port)) rescue default_port
-$sketchmate_host = ENV["SKETCHMATE_HOST"] || "localhost"
+$sketchmate_host = ENV["SKETCHMATE_HOST"] || "127.0.0.1"
 
 class Pry
   def eval(line, _options = {})
