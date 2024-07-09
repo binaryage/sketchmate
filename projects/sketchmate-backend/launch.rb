@@ -16,7 +16,7 @@ puts "SKETCHMATE: Loading backend from '#{__dir__}'." if verbose
 # Our strategy:
 # Bundler should be configured to install gems locally into ./vendor/ruby/<version>/gems (see BUNDLE_PATH in .bundle/config)
 # We add load paths for known dependencies by hand by searching ./vendor dir.
-# <version> should be 2.7.7
+# <version> should be 3.2.2
 # or whatever is current internal bundled Ruby version with Sketchup, see RUBY_VERSION in the console.
 # Ideally you should use rbenv or similar to match that.
 # I personally prefer to use direnv, which is already configured to use .ruby-version.
